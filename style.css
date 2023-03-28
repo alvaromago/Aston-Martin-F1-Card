@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, green, rgb(0, 0, 0));
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.contenedor_general{
+    display: block;
+    width: 40%;
+    background-color: white;
+    border-radius: 13px;
+}
+
+.nombre_y_logo{
+
+}
+
+.nombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    width: 30%;
+}
+
+.coche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#coche{
+    width: 75%;
+}
+
+.nombre_coche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 135%;
+}
+
+.pilotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fernando{
+    width: 20%;
+}
+
+#lance{
+    width: 20%;
+}

@@ -9,21 +9,23 @@ body{
 
 div{
     margin-top: 7px;
-    margin-bottom: 10px;
 }
 
 .contenedor_general{
     display: block;
-    width: 40%;
-    height: 90%;
+    width: 30%;
+    height: 800px;
     background-color: white;
     border-radius: 13px;
+    min-width: 625px;
+    overflow: hidden;
 }
 
 .nombre{
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 625px;
 }
 
 .logo{
@@ -67,33 +69,26 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 15px;
 }
 
-.fernando{
-    margin-right: 15px;
-}
-
-.fernando a{
-    width: 60%;
+.fernando img{
+    position: relative;
+    align-items: center;
 }
 
 .fernando p{
-    display: flex;
-    justify-content: center;
-    font-size: 125%;
-}
-
-.lance{
-    margin-left: 15px;
+    text-align: center;
+    margin-top: auto;
+    font-size: 140%;
+    font-weight: bolder;
 }
 
 .lance img{
-    
 }
 
 .lance p{
-    display: flex;
-    justify-content: center;
-    font-size: 125%;
+    text-align: center;
+    margin-top: auto;
+    font-size: 140%;
+    font-weight: bolder;
 }

@@ -3,19 +3,19 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: linear-gradient(to bottom, green, rgb(0, 0, 0));
+    background: linear-gradient(to bottom, rgb(147, 126, 224), rgb(32, 82, 83));
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 div{
-    margin-top: 10px;
-    margin-bottom: 25px;
+    margin-top: 7px;
+    margin-bottom: 10px;
 }
 
 .contenedor_general{
     display: block;
     width: 40%;
-    height: 75%;
+    height: 90%;
     background-color: white;
     border-radius: 13px;
 }
@@ -33,7 +33,7 @@ div{
 }
 
 #logo{
-    width: 30%;
+    width: 18%;
 }
 
 .divcoche{
@@ -46,11 +46,13 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px auto;
+    padding: 10px auto;
+    width: 75%;
 }
 
 #coche{
     width: 90%;
+    border-radius: 10px;
 }
 
 .nombre_coche{
@@ -58,6 +60,7 @@ div{
     justify-content: center;
     align-items: center;
     font-size: 135%;
+    margin: -30px auto;
 }
 
 .pilotos{
@@ -67,10 +70,30 @@ div{
     padding-bottom: 15px;
 }
 
-#fernando{
-    width: 20%;
+.fernando{
+    margin-right: 15px;
 }
 
-#lance{
-    width: 20%;
+.fernando a{
+    width: 60%;
+}
+
+.fernando p{
+    display: flex;
+    justify-content: center;
+    font-size: 125%;
+}
+
+.lance{
+    margin-left: 15px;
+}
+
+.lance img{
+    
+}
+
+.lance p{
+    display: flex;
+    justify-content: center;
+    font-size: 125%;
 }
